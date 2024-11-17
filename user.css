@@ -1,0 +1,89 @@
+/* CSS for styling the table and buttons */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.section {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+thead th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px;
+}
+
+tbody tr {
+    transition: background-color 0.2s ease-in;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+}
+
+/* Button styling */
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 12px;
+    transition: background-color 0.2s ease-in;
+}
+
+.edit {
+    background-color: #ffbf00;
+}
+
+.delete {
+    background-color: #ff4d4d;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+.edit:hover {
+    background-color: #e6ac00;
+}
+
+.delete:hover {
+    background-color: #e60000;
+}
